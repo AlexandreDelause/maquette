@@ -1,0 +1,229 @@
+body{
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 14px;
+	width: 100%;
+	height: 100%;
+	background-image:
+	url("./misc/etoiles-petites.png"),
+	url("./misc/etoiles-grandes.png"),
+	url("./misc/background-violet.png"),
+	url("./misc/background-vert.png");
+	background-repeat: repeat-x;
+	background-position: 900px 0px;
+	background-color: #341977;
+}
+h1{
+	font-size: 20px;
+}
+
+#nav{
+	text-align: center;
+	list-style: none;
+	margin-top: 9%;
+}
+
+main{
+	background: url("./misc/background-neige.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 0px !important;
+}
+
+.tonne{
+	text-align: center;
+    margin-top: 2%;
+}
+
+.number{
+	font-size: 25px;
+    color: white;
+    font-weight: bold;
+    background-color: #333333;
+    text-align: center;
+    padding: 7px 10px 7px 10px;
+    border-radius: 6px;
+}
+
+#rowCar{
+	background-color: rgba(106, 69, 167, 0.75);
+}
+
+.divImg{
+	background-color: #7F5CB4;
+	display: flex;
+	justify-content: center;
+	width: 18.5%;
+	height: 160px;
+	flex-direction: column;
+}
+
+.caroussel{
+	padding: 3.5% 0px 3.5% 0px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.plage{
+	background-image: url("misc/plage.jpg");
+	width: 87%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-top: 3%;
+	display: flex;
+	justify-content: center;
+	margin-left: 6.5%;
+	position: relative;
+	height: 81%;
+
+}
+
+.plage img{
+	width: 46%;
+	height: 46%;
+	margin-top: 25%;
+	position: absolute;
+
+}
+
+.poid{
+	margin: 0px;
+	margin-left: 6%
+}
+
+#main2{
+	padding-right: 30px;
+    padding-left: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.tab.panel{
+	border: 3px solid #bdbebe;
+	opacity: 0.8;
+}
+
+.mini{
+	width: 23px;
+	opacity: 0.5;
+}
+
+.news p{
+	font-size: 17px;
+}
+
+.section{
+	font-size: 12px;
+	color: #888888;
+}
+
+.tab.panel{
+	border: 1px solid #bdbebe;
+	opacity: 0.8;
+}
+
+.text_Midl{
+	border-right: 1.5px dotted;
+	border-left: 1.5px dotted;
+	border-color: #a1a1a2;
+}
+
+.form.panel{
+	text-align: center;
+	background-color: #d5cfe9;
+}
+
+#mail{
+	width: 65%;
+	margin: auto;
+}
+
+#prenom{
+	width: 65%;
+	margin: auto;
+}
+
+.form.form-group{
+	margin-bottom: -3%;
+    margin-top: 1%;
+}
+
+.btn {
+	background: #e1e1e1;
+	background-image: -webkit-linear-gradient(top, #e1e1e1, #bebebe);
+	background-image: -moz-linear-gradient(top, #e1e1e1, #bebebe);
+	background-image: -ms-linear-gradient(top, #e1e1e1, #bebebe);
+	background-image: -o-linear-gradient(top, #e1e1e1, #bebebe);
+	background-image: linear-gradient(to bottom, #e1e1e1, #bebebe);
+	-webkit-border-radius: 28;
+	-moz-border-radius: 28;
+	border-radius: 28px;
+	font-size: 15px;
+	padding: 9px 17px 9px 17px;
+	text-decoration: none;
+	margin-bottom: 7%;
+	margin-top: -10%;
+}
+
+.date{
+	font-size: 10px;
+    margin-top: -8%;
+}
+
+#mer{
+	margin-top: -4%;
+}
+
+#mer p{
+	font-size: 17px;
+}
+
+#date{
+	font-size: 10px;
+}
+
+main{
+	padding-bottom: 2% !important;
+	margin-bottom: 1%;
+	border-radius: 15px;
+}
+
+#footer1{
+	text-align: center;
+	line-height: 14px;
+}
+
+#footer1 p{
+	color: white;
+}
+
+#ying{
+	width: 65px;
+	opacity: 0.5;
+}
+
+#cup{
+	width: 65px;
+	opacity: 0.5;
+}
+
+#ping{
+	width: 65px;
+	opacity: 0.5;
+}
+
+#ying:hover{
+	opacity: 1;
+}
+
+#cup:hover{
+	opacity: 1;
+}
+
+#ping:hover{
+	opacity: 1;
+}
+
+#footer2{
+	text-align: center;
+	margin-bottom: 3%;
+}
